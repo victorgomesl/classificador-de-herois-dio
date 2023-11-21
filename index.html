@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Classificador de Heróis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Classificador de Heróis</h1>
+      <p>Descubra o nível do seu herói!</p>
+    </header>
+    <main>
+      <form>
+        <div class="input-group">
+          <label for="heroName">Nome do Herói:</label>
+          <input type="text" id="heroName" placeholder="Digite o nome do herói">
+        </div>
+        <div class="input-group">
+          <label for="heroXP">XP do Herói:</label>
+          <input type="number" id="heroXP" placeholder="Digite a XP do herói">
+        </div>
+        <button type="button" onclick="determinarNivel()">Revelar Nível</button>
+      </form>
+      <div class="result" id="resultSection">
+        <h2>Resultado</h2>
+        <p id="resultText"></p>
+      </div>
+    </main>
+    <footer>
+      <p>Criado por <a href="https://github.com/victorgomesl" target="_blank">victorgomesl</a><br>
+        Desafio DIO Potência Tech iFood</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</h
